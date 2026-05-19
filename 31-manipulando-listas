@@ -1,0 +1,29 @@
+import os
+os.system("cls")
+
+print("Manipulando Listas ou Arrays")
+
+#exemplos de criação de listas
+numeros = [1,2,3,4,5]
+nomes = ["Joaquim", "Maria", "Ana"]
+
+print("Listas iniciais")
+print(nomes)
+print("==================================")
+print(f"Nome posição 1 da Lista: {nomes[1]}")
+
+#Alternando o nome da posição 1
+nomes[1]= "Ricardo"
+print(f"Lista nova; {nomes}")
+
+#Adiconando um elemento no final da lista
+nome = input ("Digite um nome: ")
+nomes.append(nome)
+
+print("Lista Atualizada")
+print(nomes)
+
+#Adicionando um elemento em uma posição especifíca
+nomes.insert(2, "Michel Jackson")
+print("Lista Atualizada")
+print (nomes)
